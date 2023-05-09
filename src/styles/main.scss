@@ -3,6 +3,8 @@
 @import './base/normalize';
 @import './vars/vars';
 @import './components/NavBar';
+@import './components/Section';
+@import './components/Card';
 
 
 body {
@@ -41,7 +43,7 @@ img {
 }
 
 .container {
-	max-width: 1100px;
+	max-width: 1170px;
 	padding: 0 30px;
     margin: 0 auto;
 }
