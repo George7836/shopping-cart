@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 export default function NavBar() {
   return (
     <header className='header'>
-        <div className='header__logo'>
+        <div className='header__logo logo'>
             <NavLink to='/'>QPICK</NavLink>
         </div>
         <div className='header__items'>

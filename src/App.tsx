@@ -3,6 +3,7 @@ import './styles/main.scss'
 import NavBar from './components/NavBar'
 import MainPage from './pages/MainPage'
 import CartPage from './pages/CartPage'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<MainPage/>}/>
           <Route path='/cart' element={<CartPage/>}/>
         </Routes>
+        <Footer/>
       </div>
     </BrowserRouter>
   )

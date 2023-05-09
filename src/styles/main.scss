@@ -5,11 +5,13 @@
 @import './components/NavBar';
 @import './components/Section';
 @import './components/Card';
+@import './components/Footer';
 
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: $bg;
+	height: 100%;
 }
 
 *,
@@ -46,4 +48,14 @@ img {
 	max-width: 1170px;
 	padding: 0 30px;
     margin: 0 auto;
+}
+
+.wrapper {
+	display: flex;  
+	flex-direction: column;  
+	min-height: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
 }

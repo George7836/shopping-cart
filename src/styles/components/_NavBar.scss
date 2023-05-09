@@ -1,15 +1,15 @@
+.logo {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #101010;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 0 15px 0;
-
-    .header__logo {
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 30px;
-        color: #101010;
-    }
 
     .header__items {
         display: flex;

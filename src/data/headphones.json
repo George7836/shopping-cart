@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "./public/images/Apple-BYZ-S852I.png",
+        "img": "./images/Apple-BYZ-S852I.png",
         "title": "Apple BYZ S852I",
         "price": 2927,
         "previousPrice": 3527,
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "img": "./public/images/Apple-EarPods.png",
+        "img": "./images/Apple-EarPods.png",
         "title": "Apple EarPods",
         "price": 2327,
         "rate": 4.5,
@@ -18,7 +18,7 @@
     },
     {
         "id": 3,
-        "img": "./public/images/Apple-EarPods2.png",
+        "img": "./images/Apple-EarPods2.png",
         "title": "Apple EarPods",
         "price": 2327,
         "rate": 4.5,
@@ -26,7 +26,7 @@
     },
     {
         "id": 4,
-        "img": "./public/images/Apple-BYZ-S852I.png",
+        "img": "./images/Apple-BYZ-S852I.png",
         "title": "Apple BYZ S852I",
         "price": 2927,
         "rate": 4.7,
@@ -34,7 +34,7 @@
     },
     {
         "id": 5,
-        "img": "./public/images/Apple-EarPods.png",
+        "img": "./images/Apple-EarPods.png",
         "title": "Apple EarPods",
         "price": 2327,
         "rate": 4.5,
@@ -42,7 +42,7 @@
     },
     {
         "id": 6,
-        "img": "./public/images/Apple-EarPods2.png",
+        "img": "./images/Apple-EarPods2.png",
         "title": "Apple EarPods",
         "price": 2327,
         "rate": 4.5,
@@ -50,7 +50,7 @@
     },
     {
         "id": 7,
-        "img": "./public/images/Apple-AirPods.png",
+        "img": "./images/Apple-AirPods.png",
         "title": "Apple AirPods",
         "price": 9527,
         "rate": 4.7,
@@ -58,7 +58,7 @@
     },
     {
         "id": 8,
-        "img": "./public/images/GERLAX-GH-04.png",
+        "img": "./images/GERLAX-GH-04.png",
         "title": "GERLAX GH-04",
         "price": 6527,
         "rate": 4.7,
@@ -66,7 +66,7 @@
     },
     {
         "id": 9,
-        "img": "./public/images/BOROFONE-BO4.png",
+        "img": "./images/BOROFONE-BO4.png",
         "title": "BOROFONE BO4",
         "price": 7527,
         "rate": 4.7,
