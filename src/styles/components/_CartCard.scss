@@ -1,0 +1,88 @@
+.cart-card {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    background-color: $main-color;
+    max-width: 633px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 28px 17px 19px;
+
+    .cart-card__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .cart-card__info {
+            display: flex;
+            align-items: center;
+
+            .cart-card__img {
+                width: 147px;
+                height: 138px;
+            }
+
+            .cart-card__data {
+                margin-left: 24px;
+                margin-top: 35px;
+
+                .cart-card__title {
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 21px;
+                    color: $font-primary;
+                    margin-bottom: 12px;
+                }
+
+                .cart-card__price {
+                    color: #AAAAAA;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+
+    .cart-card__down {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 17px;
+
+        .counter-cart {
+            display: flex;
+            align-items: center;
+            
+            .counter-cart__btn {
+                background-color: #FFCE7F;
+                width: 35px;
+                height: 30px;
+                border-radius: 50%;
+                position: relative;
+
+                .counter-cart__icon {
+                    position: absolute;
+                    top: 50%; 
+                    left: 50%; 
+                    transform: translate(-50%,-50%);
+                }
+            }
+
+            .counter-cart__total {
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 21px;
+                color: #000;
+                margin: 0 23px 0 23px;
+            }
+        }
+
+        .cart-card__total-price {
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 18px;
+            color: $font-primary;
+        }
+    }
+}

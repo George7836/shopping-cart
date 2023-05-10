@@ -10,7 +10,7 @@ export default function MainPage() {
   }
 
   return (
-    <main>
+    <main className='main'>
       <Section title='Наушники'>
         {filterHeadphones('wired').map((item) => (
           <Card
