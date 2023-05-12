@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@import './base/normalize';
+@import './vars/vars';
+@import './components/NavBar';
+@import './components/Section';
+@import './components/Card';
+@import './components/Footer';
+@import './components//CartCard';
+@import './pages/CartPage';
+
+html {
+	overflow-x: hidden;
+  	margin-right: calc(-1 * (100vw - 100%));
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: $bg;
+	height: 100%;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	font-size: inherit;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.btn-reset {
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.container {
+	max-width: 1170px;
+	padding: 0 30px;
+    margin: 0 auto;
+
+	display: flex;  
+	flex-direction: column;  
+	min-height: 100vh;
+
+	@media (max-width: 700px) {
+		padding: 0 15px;
+	}
+}
+
+.main {
+    flex-grow: 1;
+}

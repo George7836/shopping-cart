@@ -1,0 +1,41 @@
+.logo {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #101010;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 15px 0;
+
+    .header__items {
+        display: flex;
+        align-items: flex-start;
+
+        .header__item:not(:last-child) {
+            margin-right: 45px;
+        }
+
+        .header__item {
+            position: relative;
+        }
+
+        .header__indicator {
+            position: absolute;
+            width: 17px;
+            height: 17px;
+            color: #FFFFFF;
+            background-color: $font-secondary;
+            border-radius: 50%;
+            top: -20%;
+            right: -40%;
+            text-align: center;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+        }
+    }
+}
