@@ -15,6 +15,7 @@ export default function MainPage() {
         {filterHeadphones('wired').map((item) => (
           <Card
             key={item.id}
+            id={item.id}
             title={item.title}
             img={item.img}
             price={item.price}
@@ -27,6 +28,7 @@ export default function MainPage() {
         {filterHeadphones('wireless').map((item) => (
           <Card
             key={item.id}
+            id={item.id}
             title={item.title}
             img={item.img}
             price={item.price}

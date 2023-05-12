@@ -88,7 +88,7 @@
     display: flex;
     align-items: center;
 
-    svg:not(:last-of-type) {
+    .socials__link:not(:last-of-type) {
         margin-right: 18px;
     }
 

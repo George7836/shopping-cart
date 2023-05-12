@@ -1,15 +1,19 @@
 import React from 'react'
 import { ReactComponent as StarIcon } from './../assets/icons/star.svg'
+import { useShoppingCart } from '../context/ShoppingCartContext'
 
 type CardProps = {
   title: string,
   img: string,
   price: number,
   prevPrice?: number,
-  rate: number
+  rate: number,
+  id: number
 }
 
-export default function Card({title, img, price, prevPrice, rate}: CardProps) {
+export default function Card({title, img, price, prevPrice, rate, id}: CardProps) {
+  const {increaseCartQuantity} = useShoppingCart()
+
   return (
     <div className='card'>
       <div className='card__img-wrapper'>
@@ -30,7 +34,12 @@ export default function Card({title, img, price, prevPrice, rate}: CardProps) {
           <StarIcon/>
           <span>{rate}</span> 
         </div>
-        <button className='card__btn btn-reset'>Купить</button>
+        <button 
+          className='card__btn btn-reset'
+          onClick={() => increaseCartQuantity(id)}
+        >
+          Купить
+        </button>
       </div>
     </div>
   )

@@ -13,6 +13,32 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+
+        @media (max-width: 900px) {
+            flex-direction: column;
+        }
+
+        .cart__items {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .cart__empty {
+            @media (max-width: 900px) {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .cart__total {
+        @media (max-width: 1100px) {
+            margin-left: 40px;
+        }
+
+        @media (max-width: 900px) {
+            margin: 40px 0 0 0;
+        }
     }
 
     .total {

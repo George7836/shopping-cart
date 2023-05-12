@@ -26,10 +26,10 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <div className='footer__socials'>
-            <VKIcon/>
-            <TelegramIcon/>
-            <WhatsappIcon/>
+        <div className='footer__socials socials'>
+            <a href='#' className='socials__link'><VKIcon/></a>
+            <a href='#' className='socials__link'><TelegramIcon/></a>
+            <a href='#' className='socials__link'><WhatsappIcon/></a>
         </div>
     </footer>
   )

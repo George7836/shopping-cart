@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     padding: 18px 28px 17px 19px;
+    margin-bottom: 20px;
 
     .cart-card__top {
         display: flex;
@@ -20,6 +21,7 @@
             .cart-card__img {
                 width: 147px;
                 height: 138px;
+                object-fit: contain;
             }
 
             .cart-card__data {
@@ -74,7 +76,9 @@
                 font-size: 17px;
                 line-height: 21px;
                 color: #000;
-                margin: 0 23px 0 23px;
+                width: 20px;
+                margin: 0 13px 0 13px;
+                text-align: center;
             }
         }
 
