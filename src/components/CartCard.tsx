@@ -1,4 +1,3 @@
-import React from 'react'
 import { ReactComponent as DeleteIcon } from './../assets/icons/delete.svg'
 import { ReactComponent as PlusIcon } from './../assets/icons/plus.svg'
 import { ReactComponent as MinusIcon } from './../assets/icons/minus.svg'

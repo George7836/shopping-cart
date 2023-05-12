@@ -1,4 +1,3 @@
-import React from 'react'
 import { ReactComponent as StarIcon } from './../assets/icons/star.svg'
 import { useShoppingCart } from '../context/ShoppingCartContext'
 

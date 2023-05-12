@@ -1,4 +1,3 @@
-import React from 'react'
 import Section from '../components/Section'
 import headphones from './../data/headphones.json'
 import Card from '../components/Card'

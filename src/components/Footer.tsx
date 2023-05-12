@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { ReactComponent as LangIcon } from './../assets/icons/lang.svg';
 import { ReactComponent as VKIcon } from './../assets/icons/vk.svg';
