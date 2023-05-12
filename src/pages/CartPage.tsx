@@ -1,4 +1,3 @@
-import React from 'react'
 import CartCard from '../components/CartCard'
 import { useShoppingCart } from '../context/ShoppingCartContext'
 import storedItems from './../data/headphones.json'

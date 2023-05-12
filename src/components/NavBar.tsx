@@ -1,4 +1,3 @@
-import React from 'react'
 import { ReactComponent as LikeIcon } from '../assets/icons/like.svg';
 import { ReactComponent as CartIcon } from '../assets/icons/cart.svg';
 import { NavLink } from 'react-router-dom';
