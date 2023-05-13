@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import './styles/main.scss'
 import NavBar from './components/NavBar'
 import MainPage from './pages/MainPage'
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <ShoppingCartProvider>
-      <BrowserRouter>
+      <HashRouter basename='/'>
         <div className='container'>
           <NavBar/>
           <Routes>
@@ -19,7 +19,7 @@ function App() {
           </Routes>
           <Footer/>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </ShoppingCartProvider>
   )
 }
